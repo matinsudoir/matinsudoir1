@@ -229,7 +229,7 @@ function create_config( )
       "xkcd",
       "youtube" },
     sudo_users = {194856827},
-    disabled_channels = {194856827}
+    disabled_channels = {@tele_supedir}
   }
   serialize_to_file(config, './data/config.lua')
   print ('saved config into ./data/config.lua')
